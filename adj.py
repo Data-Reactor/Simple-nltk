@@ -71,7 +71,7 @@ write_file.close()
 
 
 
-#make wordcloud
+#make WordCloud
 from wordcloud import WordCloud
 file = open("write","r").read()
 wordcloud = WordCloud(background_color="white",width=800, height=800, margin=2).generate(file)
